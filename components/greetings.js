@@ -1,7 +1,5 @@
 import { React, Component } from "react";
 import { StyleSheet, Text, TextInput, View } from "react-native"
-// import { Text, View } from "react-native"
-
 
 export default class Greetings extends Component {
     constructor(props) {
@@ -11,14 +9,11 @@ export default class Greetings extends Component {
 
     render() {
         return (
-            // <View>
-            //     <Text>Hello World!</Text>
-            // </View>
             <View style={styles.container}>
               <TextInput style={{height:30, borderColor: 'gray', borderWidth: 1}}
               placeholder="write your name"
               onChangeText={(name) => this.setState({name})} />
-              <Text style={{marginTop: 10}}>Welcome to CI/CD example, {this.state.name}</Text>
+              <Text style={{marginTop: 10}}>Welcome to CI/CD example for react native, {this.state.name}</Text>
             </View>
         );
     }
