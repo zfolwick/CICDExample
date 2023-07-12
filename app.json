@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "CICDExample",
+    "slug": "CICDExample",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
